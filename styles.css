@@ -1,0 +1,51 @@
+  body{  
+    margin:0;
+    padding:0;
+    background:url(p.jpg)no-repeat;
+    background-size:cover;
+}
+
+.box{
+    width:550px;
+    justify-content:space-between;
+    background:rgba(110, 103, 103, 0.8);
+    padding:60px;
+    text-align:center;
+    margin: auto;
+    margin-top: 7%;
+    color:black;
+    font-family:'Century Gothic',sans-serif;
+}
+.nav-wrap {
+    display: flex;
+    
+    padding: 38px;
+}
+.leftside{
+    display:flex;
+}
+.nav-wrap > .leftside > div {
+    margin-right:20px;
+    font-size : 0.9em;
+    text-transform:uppercase;
+}
+.nav-linkwrap{
+    height: 22px;
+    border-bottom:1x solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-linkwrap a{
+    color:whitesmoke;
+    text-decoration:none;
+    transition: color 0.5s;
+}
+.nav-linkwrap:hover{
+    border-bottom:1x solid black;
+
+}
+.nav-linkwrap a:hover{
+    color: black;
+}
+.box-img{
+    border-radius:20%;
+}
